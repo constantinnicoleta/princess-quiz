@@ -1,0 +1,23 @@
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(231, 101, 123);
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+img.heading {
+    height: 100px;
+}
+
+h1.heading {
+    margin-bottom: 20px;
+}
+
+.logo {
+    text-align: center;
+    width: 100px;
+    height: 120px;
+}
