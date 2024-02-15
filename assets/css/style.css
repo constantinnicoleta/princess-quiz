@@ -27,3 +27,39 @@ h1.heading {
     width: 100px;
     height: 120px;
 }
+
+#start-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#pink {
+    width: 370px;
+    height: 200px;
+    background-color: pink;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+/*Buttons*/
+button {
+    display: inline;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: black;
+    background-color: pink;
+    border-radius: 5px;
+    width: 120px;
+}
+
+#play-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 7px 30px;
+    background-color: pink;
+    border-radius: 5px;
+}
