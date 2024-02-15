@@ -4,6 +4,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-bottom: 100px;
+    background-color: ivory;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
 .heading {
     text-align: center;
     font-size: 2.5rem;

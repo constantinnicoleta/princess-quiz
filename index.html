@@ -34,6 +34,18 @@
 
     </div>
     <button id="play-btn" onclick="startQuiz()">Play !</button>
+
+    <!-- Quiz content will be generated dynamically -->
+    <div id="quiz-container" style="display: none;">
+        <!--Princess images-->
+        <img id="princess-image" src="assets/images/anna.png" alt="Disney Princess Image">
+        <h1 id="question">What is the name of this Princess?</h1>
+        <div id="options-container"></div>
+        <!--End of Quiz & Score area which also will be generated dynamically-->
+        <p id="score">Score: 0</p>
+        <button id="action-button" style="display:none" onclick="restartQuiz()">Restart Quiz</button>
+        <button id="play-again-btn" style="display: none;" onclick="restartQuiz()">Play Again</button>
+    </div>
     
 </body>
 </html>
