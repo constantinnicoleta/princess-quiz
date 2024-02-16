@@ -78,7 +78,7 @@ I've opted for the Lato font for the quiz, carefully selecting various font-weig
 
  ![Score](documentation/end_score.jpg)
 
- #Testing 
+ # Testing 
 
  ### Manual testing
  I have manually tested each element's appearance and responsiveness:
