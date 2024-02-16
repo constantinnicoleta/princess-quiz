@@ -253,6 +253,16 @@ button.option-button:hover {
         font-size: 60px;
     }
 
+    h2.pink {
+        font-size: 30px;
+    }
+
+    p {
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
     #start-container {
         width: 70%;
         overflow-x: hidden;
@@ -267,6 +277,7 @@ button.option-button:hover {
     #princess-image {
         margin-top: 50px;
     }
+
     /*quiz area*/
     #quiz-container {
         width: 600px;
