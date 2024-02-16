@@ -153,3 +153,12 @@ function showResult() {
     document.getElementById("action-button").style.display = "none";
     document.getElementById("play-again-btn").style.display = "block";
 }
+
+//function to restart quiz
+function restartQuiz() {
+    currentQuestion = 0;
+    score = 0;
+    scoreElement.style.display = "none";
+    document.getElementById("play-again-btn").style.display = "none";
+    startQuiz();
+}
