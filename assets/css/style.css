@@ -226,3 +226,22 @@ button.option-button:hover {
         margin-top: 20px;
     }
 }
+
+@media screen and (min-width: 414px) and (max-width: 767px) {
+
+    #start-container {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    #pink {
+        width: 100%;
+    }
+
+    #quiz-container {
+        width: 335px;
+        overflow-x: hidden;
+        padding-top: 30px;
+        height: 600px;
+    }
+}
