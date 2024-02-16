@@ -106,3 +106,37 @@ function loadQuestion() {
         });
     }
 }
+
+//Function to check answer & colour it if correct/incorrect
+function checkAnswer(selectedOption) {
+    const currentPrincess = shuffledPrincesses[currentQuestion];
+    const options = optionsContainer.children;
+
+    for (let i = 0; i < options.length; i++) {
+        const option = options[i];
+        option.disabled = true; // Disable options after the user has clicked
+
+        if (option.textContent === currentPrincess.answer) {
+            option.style.backgroundColor = "lightgreen"; // correct answer is coloured green
+        } else if (option.textContent === selectedOption && option.textContent !== currentPrincess.answer) {
+            option.style.backgroundColor = "red"; //  incorrect selected answer is coloured red
+        }
+    }
+
+    if (selectedOption === currentPrincess.answer) {
+        score++;
+    }
+
+    currentQuestion++;
+    // 1s delay to show the correct/incorrect answers
+    if (currentQuestion < shuffledPrincesses.length) {
+        setTimeout(() => {
+            loadQuestion();
+        }, 1000);
+    } else {
+        setTimeout(() => {
+            showResult();
+            document.getElementById("play-again-btn").style.display = "block";
+        }, 1000);
+    }
+}
