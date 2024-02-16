@@ -87,3 +87,22 @@ function startQuiz() {
 
     loadQuestion();
 }
+
+//Function to load the questions & options
+function loadQuestion() {
+    if (currentQuestion < shuffledPrincesses.length) {
+        const currentPrincess = shuffledPrincesses[currentQuestion];
+        princessImageElement.src = currentPrincess.imageUrl;
+        questionElement.textContent = "What is the name of this Princess?";
+        optionsContainer.innerHTML = "";
+        scoreElement.style.display = "none";
+
+        currentPrincess.options.forEach((option, index) => {
+            const optionElement = document.createElement("button");
+            optionElement.textContent = option;
+            optionElement.classList.add("option-button");
+            optionElement.onclick = () => checkAnswer(option);
+            optionsContainer.appendChild(optionElement);
+        });
+    }
+}
