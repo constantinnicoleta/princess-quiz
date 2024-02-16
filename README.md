@@ -51,6 +51,31 @@ I've opted for the Lato font for the quiz, carefully selecting various font-weig
 # Existing Features 
  ## Landing page
  
- The landing page features a descriptive text box aimed at guiding users through the rules of the quiz.
+ - The landing page features a descriptive text box aimed at guiding users through the rules of the quiz.
+ - It also has the name displayed at the top of the page "Disney Princess Quiz" and a picture as logo.
  Here, users are introduced on how it works, including what occurs upon correctly guessing an answer and the outcome if they happen to guess incorrectly.
+ - Lastly, it also features a "Play!" button prompting the user to begin engaging with the content.
  ![Landing page](documentation/landing_page.jpg)
+
+ ## Quiz area
+ - The quiz area has been created in a container styled to catch attention.
+ -  The quiz is a key feature as it presents to the users with the same question" What is the name of this Princess?", images of Disney princesses and three answer options.
+ -  A restart button is also displayed which allows the users to restart the quiz in a random order at any point which also restarts the score.
+ ![Quiz area](documentation/start_quiz.jpg)
+
+ ### Checking answers
+ After the user starts the quiz and click a button for their selected option, the users receive immediate feedback on their 
+   choices:
+   1. Correct answers coloured green
+   ![Correct answer](documentation/correct_answer_green.jpg)
+   2. Incorrect answers couloured red as well as displaying which was the correct answer
+   ![Incorrect answer](documentation/wrong_answer_red.jpg)
+
+ ## End of quiz & Score
+ - Once the user finishes the quiz, "Quiz completed!" text will display as well as the final score reflecting the number of correct answers achieved throughout the quiz.
+ - The user is also given the option to play again by clicking on the displayed button " Play again!" which can encourage the users to take the quiz one more time. 
+ - The order of the pictures is randomly selected therefore the user should expect a fun experience trying to guess which one could be next.
+
+ ![Score](documentation/end_score.jpg)
+
+
