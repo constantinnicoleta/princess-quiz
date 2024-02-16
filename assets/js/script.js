@@ -42,6 +42,8 @@ const princesses = [{
 },
 ];
 
+let shuffledPrincesses = [];
+
 let currentQuestion = 0;
 let score = 0;
 const playButton = document.getElementById("play-btn");
