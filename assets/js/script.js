@@ -41,3 +41,37 @@ const princesses = [{
     answer: "Elsa"
 },
 ];
+
+let currentQuestion = 0;
+let score = 0;
+const playButton = document.getElementById("play-btn");
+const startContainer = document.getElementById("start-container");
+const quizContainer = document.getElementById("quiz-container");
+const princessImageElement = document.getElementById("princess-image");
+const questionElement = document.getElementById("question");
+const optionsContainer = document.getElementById("options-container");
+const scoreElement = document.getElementById("score");
+
+scoreElement.style.display = "none"; 
+
+// Function to shuffle the array
+/**
+ * Function to shuffle the array
+ * @param {array} array 
+ * @returns shuffled array
+ */
+function shuffleArray(array) {
+    let currentIndex = array.length;
+    let temporaryValue, randomIndex;
+
+    while (currentIndex !== 0) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+}
