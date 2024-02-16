@@ -93,6 +93,11 @@ button.option-button:hover {
     margin-bottom: 20px;
 }
 
+#play-again-btn {
+    background-color: palevioletred;
+    margin-top: 20px;
+}
+
 /*Quiz area*/
 #quiz-container {
     display: flex;
