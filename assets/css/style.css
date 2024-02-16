@@ -208,8 +208,9 @@ button.option-button:hover {
 
     #pink {
         width: 100%;
+        height: 280px;
     }
-    
+
     /*quiz area*/
     #quiz-container {
         overflow-x: hidden;
@@ -230,7 +231,7 @@ button.option-button:hover {
 @media screen and (min-width: 414px) and (max-width: 767px) {
 
     #start-container {
-        width: 100%;
+        width: 80%;
         overflow-x: hidden;
     }
 
