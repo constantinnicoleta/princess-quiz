@@ -76,3 +76,49 @@ button {
     background-color: pink;
     border-radius: 5px;
 }
+
+button.option-button {
+    display: block;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+button.option-button:hover {
+    background-color: rgb(243, 117, 136);
+}
+
+#action-button {
+    background-color: palevioletred;
+    margin-bottom: 20px;
+}
+
+/*Quiz area*/
+#quiz-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+#princess-image {
+    width: 180px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+#options-container {
+    padding: 7px 30px;
+}
+
+#question {
+    font-size: 20px;
+    color: #3a3a3a;
+    margin-bottom: 10px;
+}
