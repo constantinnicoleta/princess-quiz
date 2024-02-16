@@ -164,3 +164,8 @@ function restartQuiz() {
 }
 startContainer.style.display = "block";
 quizContainer.style.display = "none";
+
+// Shuffle the array of princesses when the page loads
+window.onload = function () {
+    shuffledPrincesses = shuffleArray(princesses);
+};
