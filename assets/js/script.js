@@ -75,3 +75,15 @@ function shuffleArray(array) {
 
     return array;
 }
+//Function to start the quiz
+function startQuiz() {
+    startContainer.style.display = "none";
+    quizContainer.style.display = "block";
+    playButton.style.display = "none";
+    document.getElementById("action-button").style.display = "block";
+
+    // Shuffle the array of princesses
+    shuffledPrincesses = shuffleArray(princesses);
+
+    loadQuestion();
+}
