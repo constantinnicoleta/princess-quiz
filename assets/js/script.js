@@ -162,3 +162,5 @@ function restartQuiz() {
     document.getElementById("play-again-btn").style.display = "none";
     startQuiz();
 }
+startContainer.style.display = "block";
+quizContainer.style.display = "none";
