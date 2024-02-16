@@ -155,7 +155,7 @@ Live link can be found- [here](https://constantinnicoleta.github.io/princess-qui
 4. How to implement a shuffled array - [Javascript shuffled array tutorial](https://p14.medium.com/shuffle-an-array-javascript-cbc6fa8662a0)
 5. How to use Timeout in a function - [TimeOut functionality tutorial](https://www.freecodecamp.org/news/javascript-settimeout-js-timer-to-delay-n-seconds/)
 
-##Mentions
+## Mentions
 - I would like to mention my mentor Dick Vlaanderen who has been great throughout this project pointing me in the right direction and always making good suggestions on what to improve in my projects.
 
 
