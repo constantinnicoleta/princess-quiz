@@ -78,4 +78,90 @@ I've opted for the Lato font for the quiz, carefully selecting various font-weig
 
  ![Score](documentation/end_score.jpg)
 
+ #Testing 
+
+ ### Manual testing
+ I have manually tested each element's appearance and responsiveness:
+
+| Action | Expected behaviour | Pass/Fail |
+--- | --- | --- |
+| click Play  | quiz starts | Pass
+| click Option button | colour green if correct| Pass 
+| click Option button | colour red if incorrect | Pass
+| click Restart Quiz| quiz starts from the beggining in a random order| Pass
+| answer last question | displays score | Pass
+| click Play again | quiz starts again in a random order | Pass
+
+## Browser testing
+I have played the quiz in different browsers such as Safari, Google Chrome and Microsoft Edge and no issues displayed.
+
+## Device testing
+The quiz has been displayed on multiple devices: MacBook Pro, Iphone 14 Pro Max, 15 Pro Max, 11 Pro Max and Huawei tablet, to ensure responsiveness on various screen sizes. No issues found.
+
+## Validator Testing
+- HTML
+No errors were found when passing through the official HTML validator as below:
+ ![HTML validator](documentation/html_validator.jpg)
+
+-CSS
+No errors were found when passing through the official CSS validator:
+![CSS validator](documentation/css_validator.jpg)
+
+-JAVASCRIPT
+No errors were found when passing through the official Jshint validator:
+![Jshint validator](documentation/jshint_validator.jpg)
+
+## Lighthouse Score
+
+The quiz has received the below Lighthouse score :
+![Lighthouse score](documentation/lighthouse.png)
+
+## Unfixed bugs
+No bugs were found.
+
+# Deployment
+
+The project was deployed using GitHub Pages. I have followed these below steps for deployment:
+
+1. Go to the repository on GitHub.com
+
+2. Select 'Settings' near the top of the page.
+
+3. Choose 'Pages' from the menu bar on the left.
+
+4. Under 'Source', select the 'Branch' dropdown and choose the main branch.
+
+5. Click 'Save'.
+
+6. Page will be automatically refresh and after a few minutes a green dot will appear to indicate the successful deployment.
+
+Live link can be found- [here](https://constantinnicoleta.github.io/princess-quiz/)
+
+
+# Credits
+## Content & Technologies
+1. The text for the quiz was created by me.
+2. The picture used for the Favicon was taken from [Pixabay](https://pixabay.com/) and later generated in [Favicon](https://www.favicon-generator.org/)
+3. The photos used throughout the entire project are from [Pixabay](https://pixabay.com/)
+4. Google Font was taken from [Google](https://fonts.google.com/)
+5. I've used a File compression tool in order to reduce the size of my pictures - [Small Pdf](https://smallpdf.com/)
+6. I've used a converter to convert my jpg images to webP - [WebP Converter](https://webpconverter.com/)
+7. I have checked if my website is responsive on [Am I Responsive](https://ui.dev/amiresponsive)
+
+## Resources used
+1. Inspiration for code-structure from Code Institute's Love Math project.
+2. README structure - Inspired by CI read-me template
+3. W3schools - syntaxes reminder
+4. How to implement a shuffled array - [Javascript shuffled array tutorial](https://p14.medium.com/shuffle-an-array-javascript-cbc6fa8662a0)
+5. How to use Timeout in a function - [TimeOut functionality tutorial](https://www.freecodecamp.org/news/javascript-settimeout-js-timer-to-delay-n-seconds/)
+
+##Mentions
+- I would like to mention my mentor Dick Vlaanderen who has been great throughout this project pointing me in the right direction and always making good suggestions on what to improve in my projects.
+
+
+
+
+
+
+
 
